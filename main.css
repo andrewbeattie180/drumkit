@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Handlee|Pacifico);
+
+body{
+	background:url('https://images.pexels.com/photos/210799/pexels-photo-210799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	font-family: 'Helvetica', sans-serif;
+	background-size: contain;
+	height:100vh;
+}
+
+h1,h2{
+    font-family: "Pacifico";
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h1{
+    margin:10px;
+    padding:15px;
+    font-size:4em;
+}
+.wrapper{
+	display: block;
+}
+.boxes {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+    margin: 100px 50px 50px 50px;
+}
+.box {
+    width: 20%;
+    text-align: center;
+    background: rgba(2, 1, 9, 0.8);
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.3s;
+    border: 2px solid white;
+    margin: 1%;
+    text-transform:uppercase;
+  	letter-spacing:1px;
+  	font-size:1.5vw;
+}
+.noise{
+	transform:scale(1.1);
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.box-head {
+	text-align: center;
+	color:#ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 2px solid darkslateblue;
+    background-color: darkblue;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.box-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	padding: 15px 0;
+	font-size: 28px;
+    text-align: center;
+    min-height: 35px;
+}
