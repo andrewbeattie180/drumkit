@@ -3,7 +3,7 @@
 body{
 	background:url('https://images.pexels.com/photos/210799/pexels-photo-210799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	font-family: 'Helvetica', sans-serif;
-	background-size: contain;
+	background-size: cover;
 	height:100vh;
 }
 
