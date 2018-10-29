@@ -33,7 +33,7 @@ window.addEventListener("keydown", playSound);
 
 const boxes = document.querySelectorAll('.box');
 boxes.forEach(box => box.addEventListener('click',playSound));
-boxes.forEach(box=> box.addEventListener('transitionend',stopSound));
+boxes.forEach(box => box.addEventListener('transitionend',stopSound));
 
 
 
